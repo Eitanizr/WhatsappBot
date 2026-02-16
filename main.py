@@ -8,7 +8,7 @@ api_key = os.environ.get("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 app = Flask(__name__)
 
-ASSISTANT_ID = "asst_xxxxxxxxxxxxxxxxxxxx" # שים פה את ה-ID שלך
+ASSISTANT_ID = "asst_ukH050BcM0kutfNCdXJAmrTN" # שים פה את ה-ID שלך
 user_threads = {}
 
 def get_ai_response(message, phone_number):
